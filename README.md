@@ -24,6 +24,7 @@ Join our [Discord](https://discord.gg/ugyc4EVUYZ) if you have any problems or wa
 - [Altruist](#altruist)
 - [Retributionist](#retributionist)
 - [Haunter](#haunter)
+- [Psychic](#psychic)
 
 **Neutral Roles**
 - [Jester](#jester)
@@ -32,6 +33,7 @@ Join our [Discord](https://discord.gg/ugyc4EVUYZ) if you have any problems or wa
 - [Executioner](#executioner)
 - [Arsonist](#arsonist)
 - [Phantom](#phantom)
+- [Parasite](#parasite)
 
 **Impostor Roles**
 - [Janitor](#janitor)
@@ -43,6 +45,7 @@ Join our [Discord](https://discord.gg/ugyc4EVUYZ) if you have any problems or wa
 - [Assassin](#assassin)
 - [Underdog](#underdog)
 - [Grenadier](#grenadier)
+- [Mastermind](#mastermind)
 
 **Modifiers**
 - [Torch](#torch)
@@ -667,6 +670,17 @@ However, if the Haunter is clicked they lose their ability to reveal Impostors a
 | Who can Click Haunter | Whether even other Crewmates can click the Haunter | All / Non-Crew / Imps Only | All |
 
 -----------------------
+## Psychic
+### **Team: Crewmates**
+
+The Psychic is a Crewmate that can predict who will die this round.\
+Upon correctly predicting a death, the Psychic will learn the role of the killer of their prediction.\
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Psychic | The percentage probability of the Psychic appearing | Percentage | 0% |
+
+-----------------------
 # Neutral Roles
 ## Jester
 ### **Team: Neutral**
@@ -762,6 +776,24 @@ They become half-invisible when they die and has to complete all their tasks wit
 |----------|:-------------:|:------:|:------:|
 | Phantom | The percentage probability of the Phantom appearing | Percentage | 0% |
 | When Phantom Can Be Clicked | The amount of tasks remaining when the Phantom Can Be Clicked | Number | 5 |
+
+-----------------------
+## Parasite
+### **Team: Neutral**
+
+The Parasite is a Neutral role with its own win condition.\
+They become invisible and attached to a target player.  That player maintains complete control of themselves.\
+When the next meeting is called, or after 60 seconds, the attached player is immediately killed.\
+If the timer finishes before a meeeting is called, the incubated body explodes and the Parasite becomes visible.\
+The Parasite's aim is to kill __everyone__ and be the last person standing.
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Parasite | The percentage probability of the Parasite appearing | Percentage | 0% |
+| Incubate Cooldown | The cooldown of the Parasite's Incubate button | Time | 25s |
+| Game keeps going so long as Parasite is alive | Whether the game keeps going while the Parasite remains | Toggle | False |
+| Explosive Birth Cooldown | The cooldown for the Parasite to kill incubating target. | Time | 60s |
 
 -----------------------
 # Impostor Roles
@@ -892,6 +924,18 @@ However, a sabotage and a smoke grenade can not be active at the same time.
 | Flash Grenade Cooldown | The cooldown of the Grenadier's Flash button | Time | 25s |
 | Flash Grenade Duration | How long the Flash Grenade lasts for | Time | 10s |
 | Grenadier can Vent | Whether the Grenadier can Vent | Toggle | False |
+
+-----------------------
+## Mastermind
+### **Team: Impostors**
+
+The Mastermind is an Impostor that learns the roles of their kills.\
+
+### Game Options
+| Name | Description | Type | Default |
+|----------|:-------------:|:------:|:------:|
+| Mastermind | The percentage probability of the Mastermind appearing | Percentage | 0% |
+| Mastermind can Vent | Whether the Mastermind can Vent | Toggle | False |
 -----------------------
 
 # Modifiers
