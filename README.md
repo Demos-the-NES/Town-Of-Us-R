@@ -674,7 +674,7 @@ However, if the Haunter is clicked they lose their ability to reveal Impostors a
 ### **Team: Crewmates**
 
 The Psychic is a Crewmate that can predict who will die this round.\
-Upon correctly predicting a death, the Psychic will learn the role of the killer of their prediction.\
+Upon correctly predicting a death, the Psychic will learn the role of the killer of their prediction.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
