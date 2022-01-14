@@ -793,7 +793,7 @@ The Parasite's aim is to kill __everyone__ and be the last person standing.
 | Parasite | The percentage probability of the Parasite appearing | Percentage | 0% |
 | Incubate Cooldown | The cooldown of the Parasite's Incubate button | Time | 25s |
 | Game keeps going so long as Parasite is alive | Whether the game keeps going while the Parasite remains | Toggle | False |
-| Explosive Birth Cooldown | The cooldown for the Parasite to kill incubating target. | Time | 60s |
+| Explosive Birth Cooldown | The cooldown for the Parasite to kill incubated target. | Time | 60s |
 
 -----------------------
 # Impostor Roles
@@ -929,7 +929,7 @@ However, a sabotage and a smoke grenade can not be active at the same time.
 ## Mastermind
 ### **Team: Impostors**
 
-The Mastermind is an Impostor that learns the roles of their kills.\
+The Mastermind is an Impostor that learns the roles of their kills.
 
 ### Game Options
 | Name | Description | Type | Default |
