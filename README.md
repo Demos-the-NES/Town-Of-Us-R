@@ -784,7 +784,7 @@ They become half-invisible when they die and has to complete all their tasks wit
 The Parasite is a Neutral role with its own win condition.\
 They become invisible and attached to a target player.  That player maintains complete control of themselves.\
 When the next meeting is called, or after 60 seconds, the attached player is immediately killed.\
-If the timer finishes before a meeeting is called, the incubated body explodes and the Parasite becomes visible.\
+If the timer finishes before a meeting is called, the incubated body explodes and the Parasite becomes visible.\
 The Parasite's aim is to kill __everyone__ and be the last person standing.
 
 ### Game Options
