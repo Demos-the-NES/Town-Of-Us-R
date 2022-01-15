@@ -674,7 +674,7 @@ However, if the Haunter is clicked they lose their ability to reveal Impostors a
 ### **Team: Crewmates**
 
 The Psychic is a Crewmate that can predict who will die this round.\
-Upon correctly predicting a death, the Psychic will learn the role of the killer of their prediction.
+Upon correctly predicting a death, the Psychic will learn not who, but what role killed thier prediction.
 ### Game Options
 | Name | Description | Type | Default |
 |----------|:-------------:|:------:|:------:|
@@ -792,7 +792,6 @@ The Parasite's aim is to kill __everyone__ and be the last person standing.
 |----------|:-------------:|:------:|:------:|
 | Parasite | The percentage probability of the Parasite appearing | Percentage | 0% |
 | Incubate Cooldown | The cooldown of the Parasite's Incubate button | Time | 25s |
-| Game keeps going so long as Parasite is alive | Whether the game keeps going while the Parasite remains | Toggle | False |
 | Explosive Birth Cooldown | The cooldown for the Parasite to kill incubated target. | Time | 60s |
 
 -----------------------
@@ -929,7 +928,7 @@ However, a sabotage and a smoke grenade can not be active at the same time.
 ## Mastermind
 ### **Team: Impostors**
 
-The Mastermind is an Impostor that learns the roles of their kills.
+The Mastermind is an Impostor that learns the roles of bodies when they report them.
 
 ### Game Options
 | Name | Description | Type | Default |
